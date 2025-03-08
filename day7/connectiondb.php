@@ -11,6 +11,8 @@ try{
             username VARCHAR(30) NOT NULL,
             password VARCHAR(30) NOT NULL)";
 
+    conn->exec($sql);
+
     echo "Table created successfully";
 }catch(Exception $e){
 
