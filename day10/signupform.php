@@ -15,30 +15,30 @@
   <form>
     <div class="mb-3">
       <label for="firstName" class="form-label">Name</label>
-      <input type="text" class="form-control" id="firstName" placeholder="Enter your name">
+      <input type="text" class="form-control" name="name" id="firstName" placeholder="Enter your name">
     </div>
     
     <div class="mb-3">
       <label for="lastName" class="form-label">Surname</label>
-      <input type="text" class="form-control" id="lastName" placeholder="Enter your surname">
+      <input type="text" class="form-control" name="surname" id="lastName" placeholder="Enter your surname">
     </div>
 
 
     <div class="mb-3">
       <label for="username" class="form-label">Username</label>
-      <input type="text" class="form-control" id="username" placeholder="Choose a username">
+      <input type="text" class="form-control" name="username" id="username" placeholder="Choose a username">
 </div>
 
 
     <div class="mb-3">
       <label for="email" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="email" placeholder="Enter your email">
+      <input type="email" class="form-control" name="email" id="email" placeholder="Enter your email">
     </div>
 
 
     <div class="mb-3">
       <label for="password" class="form-label">Password</label>
-      <input type="password" class="form-control" id="password" placeholder="Enter your password">
+      <input type="password" class="form-control" name="password" id="password" placeholder="Enter your password">
     </div>
 
 
