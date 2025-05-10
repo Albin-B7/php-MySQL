@@ -12,7 +12,7 @@
 
 <div class="container mt-5">
   <h2 class="mb-4">Login</h2>
-  <form action="login.php" method="post"> <!-- Change action to your PHP handling file -->
+  <form action="loginlogic.php" method="post"> <!-- Change action to your PHP handling file -->
     <div class="mb-3">
       <label for="username" class="form-label">Username</label>
       <input type="text" class="form-control" id="username" name="username" placeholder="Enter your username" required>

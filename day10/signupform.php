@@ -12,7 +12,7 @@
 
 <div class="container mt-5">
   <h2 class="mb-4">Sign Up</h2>
-  <form>
+  <form action="register.php" method="post">
     <div class="mb-3">
       <label for="firstName" class="form-label">Name</label>
       <input type="text" class="form-control" name="name" id="firstName" placeholder="Enter your name">
@@ -42,7 +42,7 @@
     </div>
 
 
-    <button type="submit" class="btn btn-primary">Sign Up</button>
+    <button type="submit" class="btn btn-primary" name="submit">Sign Up</button>
   </form>
   <p class="mt-3">Already have an account? <a href="index.php">Log in here</a></p>
 </div>

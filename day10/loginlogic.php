@@ -5,12 +5,12 @@
         $username = $_POST['username'];
         $password = $_POST['password'];
 
-        if(empty($username) || emty($password)){
+        if(empty($username) || empty($password)){
             echo "Fill all the fields!";
             header("refresh:2 url=signin.php");
-        }else(
+        }else{
             $sql = "SELECT * FROM users WHERE username = :username";
-            $insertSql = conn->prepare($sql);
+            $insertSql = $conn->prepare($sql);
             $insertSql->bindParam(':username', $username);
             $insertSql->execute();
 
@@ -23,7 +23,7 @@
             }else{
                 echo "User not found!";
             }
-        )
+        }
     }
 
 
